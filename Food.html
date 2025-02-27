@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camiguin Food</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #c4a34e;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        .header nav {
+            flex-grow: 1;
+        }
+        .header nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .food-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .food-item {
+            text-align: center;
+        }
+        .food-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .food-item p {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <a href="Homepage.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <a href="Food.html">FOOD</a>
+            <a href="Spots.html">TOURIST SPOTS</a>
+            <a href="Contact.html">CONTACT US</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="food-gallery">
+            <div class="food-item">
+                <img src="https://ik.imagekit.io/avdg/newsroom/wp-content/uploads/2022/01/Camiguin-Cuisine-Blog-photos-03-1536x1086.jpg">
+                <p>Pastel de Camiguin</p>
+            </div>
+            <div class="food-item">
+                <img src="https://ik.imagekit.io/avdg/newsroom/wp-content/uploads/2022/01/Camiguin-Cuisine-Blog-photos-04-1536x1086.jpg">
+                <p>Sulop</p>
+            </div>
+            <div class="food-item">
+                <img src="https://ik.imagekit.io/avdg/newsroom/wp-content/uploads/2022/01/Camiguin-Cuisine-Blog-photos-05-1536x1087.jpg">
+                <p>Kiping</p>
+            </div>
+            <div class="food-item">
+                <img src="https://ik.imagekit.io/avdg/newsroom/wp-content/uploads/2022/01/Camiguin-Cuisine-Blog-photos-06-1536x1086.jpg">
+                <p>Lanzones Ice Cream</p>
+            </div>
+            <div class="food-item">
+                <img src="https://ik.imagekit.io/avdg/newsroom/wp-content/uploads/2022/01/Camiguin-Cuisine-Blog-photos-07-1536x1087.jpg">
+                <p>Lechon de Camiguin</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

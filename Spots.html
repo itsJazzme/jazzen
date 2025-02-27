@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camiguin Tourist Spots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            overflow-y: auto; 
+        }
+        .header {
+            background-color: #c4a34e;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        .header nav {
+            flex-grow: 1;
+        }
+        .header nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .spot {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .spot img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .spot p {
+            font-size: 16px;
+            color: #333;
+            max-width: 400px;
+        }
+        @media (max-width: 768px) {
+            .spot {
+                flex-direction: column;
+                text-align: center;
+            }
+            .spot img {
+                margin-bottom: 100px;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <a href="Homepage.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <a href="Food.html">FOOD</a>
+            <a href="Spots.html">TOURIST SPOTS</a>
+            <a href="Contact.html">CONTACT US</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="spot">
+            <img src="https://philippinetravels.ph/wp-content/uploads/2023/01/Katibawasan-1-1024x576.jpg?v=1674779571">
+            <p><strong>Katibawasan Falls</strong> is 250 feet high, or around 76 meters. It is the tallest waterfall in Camiguin, and one of the tallest single-drop waterfalls in the Philippines.</p>
+        </div>
+        <div class="spot">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/45/ae/b7/sunken-cemetery.jpg?w=900&h=500&s=1">
+            <p><strong>Sunken Cemetery</strong> is known for its large cross monument in the middle of the sea. It’s a great place to watch the sunset or admire Camiguin’s mountains from offshore.</p>
+        </div>
+        <div class="spot">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSDgJz46aLhQJHAJMCj2rreu8JwXzgpFpCKdgXEjqRpcGA6_0cx">
+            <p><strong>Tuasan Falls</strong> is a beautiful single cascade waterfall with crystal-clear water surrounded by lush jungle.</p>
+        </div>
+        <div class="spot">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW4JGJhtfjuihuVWBa3ivgq_U8r8JImTXZ-xVQYYY_H4FkPGzS">
+            <p><strong>The Old Church Ruins</strong> in Camiguin are all that remain of the Guinsiliban Church, also known as the Old Catarman Church, which was built in the early 16th century.</p>
+        </div>
+        <div class="spot">        
+            <img src="https://cdn.thatch.co/cdn-cgi/image/width=3840,format=webp/images/601530/36eu.png">
+            <p><strong>Soda Water Pool</strong> is one of the most popular spring resorts in Camiguin. Its clean and clear water is not just good for swimming but for drinking as well.</p>
+        </div>
+        <div class="spot">
+            <img src="https://live.staticflickr.com/3876/14436743153_9fde4dd9a7_b.jpg">
+            <p><strong>Ardent Hot Spring</strong> is a popular natural thermal spring that offers a relaxing escape amidst the island’s lush landscapes.</p>
+        </div>
+        <div class="spot">
+            <img src="https://philippinetravels.ph/wp-content/uploads/2023/01/sto-nino-7-1024x576.jpg">
+            <p><strong>Sto. Niño Cold Spring</strong> is best known for its cool and fresh waters that make for a great escape, especially during the summer months of March to May.</p>
+        </div>
+        <div class="spot">
+            <img src="https://media.istockphoto.com/id/1740341340/photo/mantigue-island-in-camiguin-island-philippines.jpg?s=612x612&w=0&k=20&c=jX_wsTAZkhsE-GS-4A_YlbUx87TclXk1CVY0XlV4OkE=">
+            <p><strong>Mantigue Island</strong> is a serene tropical getaway in Camiguin, offering stunning white sands, clear waters, and vibrant marine life. It’s the perfect escape for nature lovers and adventure seekers alike.</p>
+        </div>
+        <div class="spot">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/61/b8/e7/white-island-is-an-uninhabited.jpg?w=700&h=-1&s=1">
+            <p><strong>White Island</strong> is known for its tendency to change shape depending on the tide.</p>
+        </div>
+        <div class="spot">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipNei2xuLAK-jidw4hSXEu7LPn-xXm6O7EluVG6D=w675-h390-n-k-no">
+            <p><strong>Katunggan Park</strong> isn’t just a normal park—it’s a web of boardwalks through the mangroves that lead to huts perched over the crystal-clear ocean.</p>
+        </div>
+        <div class="spot">
+            <img src="https://outoftownblog.com/wp-content/uploads/2015/11/Graveyard-at-Giant-Clam-Sanctuary-600x375.jpg">
+            <p><strong>Giant Clams Sanctuary</strong> is located on Kibila White Beach, and is home to giant clams which are an endangered species. At this sanctuary, you’ll be able to snorkel, swim, and learn more about these majestic creatures.</p>
+        </div>
+    </div>
+
+</body>
+</html>

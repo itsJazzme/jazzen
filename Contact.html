@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Camiguin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #c4a34e;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        .header nav {
+            flex-grow: 1;
+        }
+        .header nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .contact-info {
+            max-width: 400px;
+            font-size: 18px;
+            color: #333;
+        }
+        .contact-info p {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .contact-info img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .map {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .map {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <a href="Homepage.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <a href="Food.html">FOOD</a>
+            <a href="Spots.html">TOURIST SPOTS</a>
+            <a href="Contact.html">CONTACT US</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <img class="map" src="https://files01.pna.gov.ph/category-list/2022/03/12/camiguin.jpg"">
+        <div class="contact-info">
+            <p>
+                <img src="https://thumbs.dreamstime.com/b/yellow-location-icon-isolated-white-background-yellow-location-icon-118971235.jpg" alt="Location">
+                Provincial Capitol Building, Lakas, Poblacion, Mambajao, Camiguin
+            </p>
+            <p>
+                <img src="https://st2.depositphotos.com/5266903/8456/v/950/depositphotos_84569318-stock-illustration-phone-flat-yellow-color-icon.jpg" alt="Phone">
+                0975 – 217 – 5519
+            </p>
+            <p>
+                <img src="https://img.freepik.com/premium-vector/email-letter-icon-modern-vector-illustration-single-pictogram-badge-writing-yellow-color_547674-602.jpg" alt="Email">
+                governor@camiguin.gov.ph
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
